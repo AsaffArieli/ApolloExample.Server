@@ -1,0 +1,6 @@
+@ApolloExample.Server_HostAddress = http://localhost:5032
+
+GET {{ApolloExample.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
