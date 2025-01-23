@@ -4,7 +4,7 @@ using HotChocolate.Types;
 
 namespace ApolloExample.Server
 {
-    //[Authorize]
+    [Authorize]
     public class Subscription
     {
         [Subscribe(With = nameof(BookStream))]
